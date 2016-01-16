@@ -25,7 +25,7 @@
                             <goal>jdeb</goal>
                         </goals>
                         <configuration>
-                            <controlDir>${basedir}/src/deb/control</controlDir>
+                            <controlDir>${basedir}/src/foo/control</controlDir>
                             <dataSet>
 
                                 <data>
