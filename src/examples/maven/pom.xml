@@ -5,7 +5,14 @@
     <artifactId>jdeb-example</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>description from pom</description>
+    <packaging>deb</packaging>
     <build>
+        <extensions>
+            <extension>
+                <groupId>org.vafer</groupId>
+                <artifactId>jdeb</artifactId>
+            </extension>
+        </extensions>
         <plugins>
             <plugin>
                 <artifactId>jdeb</artifactId>
